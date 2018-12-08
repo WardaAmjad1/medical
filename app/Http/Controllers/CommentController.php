@@ -13,6 +13,7 @@ class CommentController extends Controller
 	//dd($comment);
 	$obj=new comments();
 	$obj->comment=$comment;
+	$obj->comment=$comment;
 	$obj->post_id=$request->post_id;
 	$obj->save();
 
